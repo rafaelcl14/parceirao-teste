@@ -9,7 +9,6 @@ export const Containers = styled.div`
       flex-direction: column;
       width: 100%;
       padding: 0;
-      padding-bottom: 20px;
       gap: 0.5rem;
       .conteudo {
         gap: 0;
