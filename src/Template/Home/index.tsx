@@ -118,13 +118,13 @@ const Home: React.FC = () => {
                 className="logo--social"
                 href="https://www.facebook.com/parceiraoatacadista"
               >
-                <img className="logosredes" src={logoface} alt="" />
+                <img className="icon--logo" src={logoface} alt="" />
               </a>
               <a
                 className="logo--social"
                 href="https://www.instagram.com/parceiraoatacadista/"
               >
-                <img className="logosredes" src={logoinsta} alt="" />
+                <img className="icon--logo" src={logoinsta} alt="" />
               </a>
               <p className="maps">@parceiraoatacadista</p>
             </div>
