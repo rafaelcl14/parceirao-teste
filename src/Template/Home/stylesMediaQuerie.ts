@@ -10,6 +10,10 @@ export const Containers = styled.div`
       width: 100%;
       padding: 0;
       gap: 0.5rem;
+      background-color: #f1f1f1;
+      .logoParceirao {
+        padding: 2rem 0;
+      }
       .conteudo {
         gap: 0;
         width: 100%;
