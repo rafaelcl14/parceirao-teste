@@ -29,7 +29,7 @@ export const Containers = styled.div`
         padding-bottom: 0.5rem;
       }
       .maps {
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 700;
         line-height: 21px;
       }
@@ -38,10 +38,14 @@ export const Containers = styled.div`
     .logoOI {
       display: none;
     }
-
-    .imgchegandomobile {
-      display: block;
-      width: 100%;
+    .imagemobile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .imgchegandomobile {
+        display: inline;
+        width: 100%;
+      }
     }
     main {
       display: none;
