@@ -11,8 +11,12 @@ export const Containers = styled.div`
       padding: 0;
       gap: 0.5rem;
       background-color: #f1f1f1;
+
+      .subtitulo-embreve {
+        margin: 0;
+      }
       .logoParceirao {
-        padding: 2rem 0;
+        padding: 1rem 0;
       }
       .conteudo {
         gap: 0;
