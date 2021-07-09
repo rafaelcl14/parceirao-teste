@@ -55,11 +55,11 @@ export const Container = styled.div`
 
   aside {
     flex: 7;
-    background: #fff;
+
     color: #333;
     gap: 7rem;
     display: flex;
-    flex-direction: column;
+
     /* justify-content: center; */
     align-items: center;
     animation: asideAnimation 3s;
@@ -203,11 +203,11 @@ export const Container = styled.div`
     text-align: center;
 
     animation: mainAnimation 3s;
-
     /* @media (min-width: 1050px) {
       width: 100%;
       height: 100%;
     } */
+
     > img {
       align-self: center;
       /* display: none; */
