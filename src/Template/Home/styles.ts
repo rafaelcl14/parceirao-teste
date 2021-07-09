@@ -39,7 +39,7 @@ from {
 export const Container = styled.div`
   display: flex;
   align-items: stretch;
-  height: 100vh;
+  height: 100%;
 
   /* @media (max-width: 750px) {
     flex-direction: column;
@@ -49,13 +49,10 @@ export const Container = styled.div`
   .imgchegandomobile {
     display: none;
   }
-
   .logoOI {
-    /* width: 67.813rem;
-    height: 62.5rem; */
-    width: 999px;
-    height: 937px;
+    display: none;
   }
+
   aside {
     flex: 7;
     background: #fff;

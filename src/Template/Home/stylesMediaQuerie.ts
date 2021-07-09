@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 export const Containers = styled.div`
   //screen celular
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 750px) {
     width: 100%;
     height: 100%;
     aside {
@@ -9,7 +9,7 @@ export const Containers = styled.div`
       flex-direction: column;
       width: 100%;
       padding: 0;
-      gap: 0.5rem;
+      gap: 3.5rem;
       background-color: #f1f1f1;
 
       .subtitulo-embreve {
