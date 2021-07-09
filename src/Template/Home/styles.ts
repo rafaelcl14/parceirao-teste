@@ -41,10 +41,10 @@ export const Container = styled.div`
   align-items: stretch;
   height: 100vh;
 
-  @media (max-width: 750px) {
+  /* @media (max-width: 750px) {
     flex-direction: column;
     width: 100%;
-  }
+  } */
 
   .imgchegandomobile {
     display: none;
@@ -68,20 +68,20 @@ export const Container = styled.div`
     animation: asideAnimation 3s;
     padding: 8rem 2rem 8rem 8rem;
 
-    @media (max-width: 450px) {
+    /* @media (max-width: 450px) {
       width: 100% !important;
       padding: 0;
       gap: 1rem;
       .imagemobile {
         width: 100%;
         text-align: center;
-        /* padding: 0 10rem; */
+        padding: 0 10rem;
 
         .imgchegando {
           width: 80% !important;
         }
       }
-    }
+    } */
 
     .logoParceirao {
       display: flex;
@@ -155,7 +155,7 @@ export const Container = styled.div`
         }
       }
 
-      @media (max-width: 450px) {
+      /* @media (max-width: 450px) {
         padding: 0 3rem;
         margin-bottom: 2rem;
         .maps {
@@ -163,7 +163,7 @@ export const Container = styled.div`
         }
         .logosredes {
         }
-      }
+      } */
     }
 
     strong {
@@ -179,13 +179,13 @@ export const Container = styled.div`
       color: #bf3538;
       animation: contentAnimation 3s;
     }
-    @media (max-width: 468px) {
+    /* @media (max-width: 468px) {
       width: 30%;
     }
 
     @media (max-width: 400px) {
       display: none;
-    }
+    } */
   }
 
   main {
@@ -228,9 +228,9 @@ export const Container = styled.div`
       flex-direction: column;
       gap: 1.5rem;
 
-      @media (max-width: 750px) {
+      /* @media (max-width: 750px) {
         gap: 0.8rem;
-      }
+      } */
 
       input {
         height: 50px;

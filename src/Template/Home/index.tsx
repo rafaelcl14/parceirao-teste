@@ -3,6 +3,7 @@ import React, { FormEvent, useState } from 'react'
 
 import toast, { Toaster } from 'react-hot-toast'
 import { Container } from './styles'
+import { Containers } from './stylesMediaQuerie'
 
 import logop from '../../assets/parceiraologo.png'
 import logoinsta from '../../assets/insta.svg'
@@ -81,53 +82,61 @@ const Home: React.FC = () => {
 
   return (
     <Container>
-      <aside>
-        <strong className="subtitulo-embreve">
-          <i>EM BREVE EM JI-PARANÁ</i>
-        </strong>
-        <div className="logoParceirao">
-          <img src={logop} alt="logo parceirão atacadista" />
-        </div>
-        <div className="imagemobile">
-          <img
-            className="imgchegandomobile"
-            src={imgchegando}
-            alt="Imagem Parceirão"
-          />
-        </div>
-        <div className="conteudo">
-          <strong className="subtitulo">
-            <img className="logosredes" src={logolocal} alt="" />
-            <a className="maps" href="https://goo.gl/maps/3kgCxnUSnjDNdA2c6">
-              Endereço: R. Cruzeiro do Sul, 2278 - Cafezinho, Ji-Paraná - RO,
-              <br />
-              76913-684
-            </a>
+      <Containers>
+        <aside>
+          <strong className="subtitulo-embreve">
+            <p className="Titulo--top">EM BREVE EM JI-PARANÁ</p>
           </strong>
-
-          <p className="endereco">
-            <img className="logosredes" src={logotele} alt="" />
-            <a className="tel maps" href="tel:693424-7174" type="tel">
-              Telefone: (69) 3424-7174
-            </a>
-          </p>
-          <div className="redessociais ">
-            <a href="https://www.facebook.com/parceiraoatacadista">
-              <img className="logosredes" src={logoface} alt="" />
-            </a>
-            <a href="https://www.instagram.com/parceiraoatacadista/">
-              <img className="logosredes" src={logoinsta} alt="" />
-            </a>
-            <p className="maps">: @parceiraoatacadista</p>
+          <h1 className="logoParceirao">
+            <img src={logop} alt="logo parceirão atacadista" />
+          </h1>
+          <div className="imagemobile">
+            <img
+              className="imgchegandomobile"
+              src={imgchegando}
+              alt="Imagem Parceirão"
+            />
           </div>
-        </div>
-      </aside>
+          <div className="conteudo">
+            <strong className="subtitulo">
+              <img className="logosredes" src={logolocal} alt="" />
+              <a className="maps" href="https://goo.gl/maps/3kgCxnUSnjDNdA2c6">
+                Endereço: R. Cruzeiro do Sul, 2278 - Cafezinho, Ji-Paraná - RO,
+                <br />
+                76913-684
+              </a>
+            </strong>
 
-      <main>
-        <div className="main-content">
-          <img className="logoOI" src={imgchegando} alt="Imagem Parceirão" />
-        </div>
-      </main>
+            <p className="endereco">
+              <img className="logosredes" src={logotele} alt="" />
+              <a className="tel maps" href="tel:693424-7174" type="tel">
+                Telefone: (69) 3424-7174
+              </a>
+            </p>
+            <div className="redessociais ">
+              <a
+                className="logo--social"
+                href="https://www.facebook.com/parceiraoatacadista"
+              >
+                <img className="logosredes" src={logoface} alt="" />
+              </a>
+              <a
+                className="logo--social"
+                href="https://www.instagram.com/parceiraoatacadista/"
+              >
+                <img className="logosredes" src={logoinsta} alt="" />
+              </a>
+              <p className="maps">@parceiraoatacadista</p>
+            </div>
+          </div>
+        </aside>
+
+        <main>
+          <div className="main-content">
+            <img className="logoOI" src={imgchegando} alt="Imagem Parceirão" />
+          </div>
+        </main>
+      </Containers>
     </Container>
   )
 }

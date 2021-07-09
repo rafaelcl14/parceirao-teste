@@ -28,6 +28,6 @@ body,
 input,
 button,
 textarea {
-  font: 400 1.6rem "Roboto", sans-serif;
+  font: 400 1.6rem "Poppins", sans-serif;
 }
 `
