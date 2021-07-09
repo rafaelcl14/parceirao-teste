@@ -207,10 +207,10 @@ export const Container = styled.div`
 
     animation: mainAnimation 3s;
 
-    @media (min-width: 1050px) {
+    /* @media (min-width: 1050px) {
       width: 100%;
       height: 100%;
-    }
+    } */
     > img {
       align-self: center;
       /* display: none; */
